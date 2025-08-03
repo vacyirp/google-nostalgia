@@ -1,0 +1,83 @@
+body {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgb(0, 0, 0);
+}
+
+.btn-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.btn {
+    background-color: #5980c9;
+    width: 180px;
+    height: 120px;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red-btn {
+    background-color: #c90000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #00ed23;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #00ed23;
+    text-align: center;
+}
+
+.btn span{
+    color: #ffffff;
+    font-weight: bold;  
+    font-size: 24px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none; /* İsterseniz alt çizgiyi kaldırır */
+}
+
+nav ul {
+    list-style-type: circle;
+    list-style-position: inside;
+    padding-left: 10px; /* Varsayılan genelde 40px, azaltınca işaretler yaklaşır */
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    line-height: 32px;
+    color: #ffffff;
+}
+
+p{
+    font-size: larger;
+    color: #00ed23;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 17px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
