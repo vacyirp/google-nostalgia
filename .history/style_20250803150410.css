@@ -27,8 +27,7 @@ body {
 }
 
 .times {
-  git add .
-  git commit -m "İlk yükleme"  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 18px;
   margin-top: 5px;
 }
